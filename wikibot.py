@@ -1,5 +1,6 @@
-import click
 import wikipedia
+
+import click
 
 @click.command()
 @click.option('--name', prompt='wikipedia page to scrape',
@@ -10,4 +11,4 @@ def scrape (name="Microsoft", length=1):
     click.echo(click.style(f"{result}:", fg="blue"))
 
 if __name__== '__main__':
-        scrape()
+    scrape()
