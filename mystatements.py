@@ -1,5 +1,5 @@
 my_list = ["Apple", "Banana", "Cherry"]
-my_dict = {"orange":"coffee", "milk": "whole"}
+my_dict = {"orange": "coffee", "milk": "whole"}
 
 for item in my_list:
     print(f"My favorite fruit is {item}")
