@@ -7,6 +7,6 @@ from mylib.bot import scrape
 def cli(name):
     result = scrape(name)
     click.echo(click.style(f"{result}:", fg="white"))
-
+    
 if __name__== '__main__':
     cli()
